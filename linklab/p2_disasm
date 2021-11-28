@@ -1,0 +1,223 @@
+
+phase2.o：     文件格式 elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <UXDgNRhUFU>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	83 ec 58             	sub    $0x58,%esp
+   6:	c7 45 b4 79 73 52 54 	movl   $0x54527379,-0x4c(%ebp)
+   d:	c7 45 b8 75 43 79 71 	movl   $0x71794375,-0x48(%ebp)
+  14:	c7 45 bc 43 41 70 57 	movl   $0x57704143,-0x44(%ebp)
+  1b:	c7 45 c0 72 58 57 76 	movl   $0x76575872,-0x40(%ebp)
+  22:	c7 45 c4 69 47 41 78 	movl   $0x78414769,-0x3c(%ebp)
+  29:	c7 45 c8 37 73 37 34 	movl   $0x34377337,-0x38(%ebp)
+  30:	c7 45 cc 6d 77 43 70 	movl   $0x7043776d,-0x34(%ebp)
+  37:	c7 45 d0 76 33 75 41 	movl   $0x41753376,-0x30(%ebp)
+  3e:	c7 45 d4 4f 30 6b 54 	movl   $0x546b304f,-0x2c(%ebp)
+  45:	c7 45 d8 41 6d 36 41 	movl   $0x41366d41,-0x28(%ebp)
+  4c:	c7 45 dc 35 43 37 73 	movl   $0x73374335,-0x24(%ebp)
+  53:	c7 45 e0 38 43 42 39 	movl   $0x39424338,-0x20(%ebp)
+  5a:	c7 45 e4 35 31 63 4e 	movl   $0x4e633135,-0x1c(%ebp)
+  61:	c7 45 e8 42 54 6c 69 	movl   $0x696c5442,-0x18(%ebp)
+  68:	c7 45 ec 69 20 47 37 	movl   $0x37472069,-0x14(%ebp)
+  6f:	c7 45 f0 5a 4c 34 00 	movl   $0x344c5a,-0x10(%ebp)
+  76:	83 ec 0c             	sub    $0xc,%esp
+  79:	8d 45 b4             	lea    -0x4c(%ebp),%eax
+  7c:	50                   	push   %eax
+  7d:	e8 fc ff ff ff       	call   7e <UXDgNRhUFU+0x7e>
+  82:	83 c4 10             	add    $0x10,%esp
+  85:	89 45 f4             	mov    %eax,-0xc(%ebp)
+  88:	83 7d 08 00          	cmpl   $0x0,0x8(%ebp)
+  8c:	78 15                	js     a3 <UXDgNRhUFU+0xa3>
+  8e:	8b 45 08             	mov    0x8(%ebp),%eax
+  91:	3b 45 f4             	cmp    -0xc(%ebp),%eax
+  94:	7d 0d                	jge    a3 <UXDgNRhUFU+0xa3>
+  96:	8d 55 b4             	lea    -0x4c(%ebp),%edx
+  99:	8b 45 08             	mov    0x8(%ebp),%eax
+  9c:	01 d0                	add    %edx,%eax
+  9e:	0f b6 00             	movzbl (%eax),%eax
+  a1:	eb 05                	jmp    a8 <UXDgNRhUFU+0xa8>
+  a3:	b8 00 00 00 00       	mov    $0x0,%eax
+  a8:	c9                   	leave  
+  a9:	c3                   	ret    
+
+000000aa <sIYzCuOu>:
+  aa:	55                   	push   %ebp
+  ab:	89 e5                	mov    %esp,%ebp
+  ad:	83 ec 08             	sub    $0x8,%esp
+  b0:	83 ec 08             	sub    $0x8,%esp
+  b3:	68 02 00 00 00       	push   $0x2
+  b8:	ff 75 08             	pushl  0x8(%ebp)
+  bb:	e8 fc ff ff ff       	call   bc <sIYzCuOu+0x12>
+  c0:	83 c4 10             	add    $0x10,%esp
+  c3:	85 c0                	test   %eax,%eax
+  c5:	75 10                	jne    d7 <sIYzCuOu+0x2d>
+  c7:	83 ec 0c             	sub    $0xc,%esp
+  ca:	ff 75 0c             	pushl  0xc(%ebp)
+  cd:	e8 fc ff ff ff       	call   ce <sIYzCuOu+0x24>
+  d2:	83 c4 10             	add    $0x10,%esp
+  d5:	eb 01                	jmp    d8 <sIYzCuOu+0x2e>
+  d7:	90                   	nop
+  d8:	c9                   	leave  
+  d9:	c3                   	ret    
+
+000000da <do_phase>:
+  da:	55                   	push   %ebp
+  db:	89 e5                	mov    %esp,%ebp
+  dd:	90                   	nop
+  de:	90                   	nop
+  df:	90                   	nop
+  e0:	90                   	nop
+  e1:	90                   	nop
+  e2:	90                   	nop
+  e3:	90                   	nop
+  e4:	90                   	nop
+  e5:	90                   	nop
+  e6:	90                   	nop
+  e7:	90                   	nop
+  e8:	90                   	nop
+  e9:	90                   	nop
+  ea:	90                   	nop
+  eb:	90                   	nop
+  ec:	90                   	nop
+  ed:	90                   	nop
+  ee:	90                   	nop
+  ef:	90                   	nop
+  f0:	90                   	nop
+  f1:	90                   	nop
+  f2:	90                   	nop
+  f3:	90                   	nop
+  f4:	90                   	nop
+  f5:	90                   	nop
+  f6:	90                   	nop
+  f7:	90                   	nop
+  f8:	90                   	nop
+  f9:	90                   	nop
+  fa:	90                   	nop
+  fb:	90                   	nop
+  fc:	90                   	nop
+  fd:	90                   	nop
+  fe:	90                   	nop
+  ff:	90                   	nop
+ 100:	90                   	nop
+ 101:	90                   	nop
+ 102:	90                   	nop
+ 103:	90                   	nop
+ 104:	90                   	nop
+ 105:	90                   	nop
+ 106:	90                   	nop
+ 107:	90                   	nop
+ 108:	90                   	nop
+ 109:	90                   	nop
+ 10a:	90                   	nop
+ 10b:	90                   	nop
+ 10c:	90                   	nop
+ 10d:	90                   	nop
+ 10e:	90                   	nop
+ 10f:	90                   	nop
+ 110:	90                   	nop
+ 111:	90                   	nop
+ 112:	90                   	nop
+ 113:	90                   	nop
+ 114:	90                   	nop
+ 115:	90                   	nop
+ 116:	90                   	nop
+ 117:	90                   	nop
+ 118:	90                   	nop
+ 119:	90                   	nop
+ 11a:	90                   	nop
+ 11b:	90                   	nop
+ 11c:	90                   	nop
+ 11d:	90                   	nop
+ 11e:	5d                   	pop    %ebp
+ 11f:	c3                   	ret    
+
+Disassembly of section .data:
+
+00000000 <phase_id>:
+   0:	00 00                	add    %al,(%eax)
+	...
+
+00000004 <phase>:
+   4:	00 00                	add    %al,(%eax)
+	...
+
+Disassembly of section .rodata:
+
+00000000 <.rodata>:
+   0:	32 00                	xor    (%eax),%al
+   2:	76 45                	jbe    49 <phase+0x45>
+   4:	66 46                	inc    %si
+   6:	61                   	popa   
+   7:	62 75 00             	bound  %esi,0x0(%ebp)
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	00 47 43             	add    %al,0x43(%edi)
+   3:	43                   	inc    %ebx
+   4:	3a 20                	cmp    (%eax),%ah
+   6:	28 44 65 62          	sub    %al,0x62(%ebp,%eiz,2)
+   a:	69 61 6e 20 38 2e 33 	imul   $0x332e3820,0x6e(%ecx),%esp
+  11:	2e 30 2d 36 29 20 38 	xor    %ch,%cs:0x38202936
+  18:	2e 33 2e             	xor    %cs:(%esi),%ebp
+  1b:	30 00                	xor    %al,(%eax)
+
+Disassembly of section .eh_frame:
+
+00000000 <.eh_frame>:
+   0:	14 00                	adc    $0x0,%al
+   2:	00 00                	add    %al,(%eax)
+   4:	00 00                	add    %al,(%eax)
+   6:	00 00                	add    %al,(%eax)
+   8:	01 7a 52             	add    %edi,0x52(%edx)
+   b:	00 01                	add    %al,(%ecx)
+   d:	7c 08                	jl     17 <.eh_frame+0x17>
+   f:	01 1b                	add    %ebx,(%ebx)
+  11:	0c 04                	or     $0x4,%al
+  13:	04 88                	add    $0x88,%al
+  15:	01 00                	add    %eax,(%eax)
+  17:	00 1c 00             	add    %bl,(%eax,%eax,1)
+  1a:	00 00                	add    %al,(%eax)
+  1c:	1c 00                	sbb    $0x0,%al
+  1e:	00 00                	add    %al,(%eax)
+  20:	00 00                	add    %al,(%eax)
+  22:	00 00                	add    %al,(%eax)
+  24:	aa                   	stos   %al,%es:(%edi)
+  25:	00 00                	add    %al,(%eax)
+  27:	00 00                	add    %al,(%eax)
+  29:	41                   	inc    %ecx
+  2a:	0e                   	push   %cs
+  2b:	08 85 02 42 0d 05    	or     %al,0x50d4202(%ebp)
+  31:	02 a6 c5 0c 04 04    	add    0x4040cc5(%esi),%ah
+  37:	00 1c 00             	add    %bl,(%eax,%eax,1)
+  3a:	00 00                	add    %al,(%eax)
+  3c:	3c 00                	cmp    $0x0,%al
+  3e:	00 00                	add    %al,(%eax)
+  40:	aa                   	stos   %al,%es:(%edi)
+  41:	00 00                	add    %al,(%eax)
+  43:	00 30                	add    %dh,(%eax)
+  45:	00 00                	add    %al,(%eax)
+  47:	00 00                	add    %al,(%eax)
+  49:	41                   	inc    %ecx
+  4a:	0e                   	push   %cs
+  4b:	08 85 02 42 0d 05    	or     %al,0x50d4202(%ebp)
+  51:	6c                   	insb   (%dx),%es:(%edi)
+  52:	c5 0c 04             	lds    (%esp,%eax,1),%ecx
+  55:	04 00                	add    $0x0,%al
+  57:	00 1c 00             	add    %bl,(%eax,%eax,1)
+  5a:	00 00                	add    %al,(%eax)
+  5c:	5c                   	pop    %esp
+  5d:	00 00                	add    %al,(%eax)
+  5f:	00 da                	add    %bl,%dl
+  61:	00 00                	add    %al,(%eax)
+  63:	00 46 00             	add    %al,0x0(%esi)
+  66:	00 00                	add    %al,(%eax)
+  68:	00 41 0e             	add    %al,0xe(%ecx)
+  6b:	08 85 02 42 0d 05    	or     %al,0x50d4202(%ebp)
+  71:	02 42 c5             	add    -0x3b(%edx),%al
+  74:	0c 04                	or     $0x4,%al
+  76:	04 00                	add    $0x0,%al

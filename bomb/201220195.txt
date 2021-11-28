@@ -1,0 +1,8 @@
+Unix system programming is an old art.
+1103993198 260046848
+16 32 40 56 76 104
+18 911
+12 751LKIseC
+8 48
+4 2 3 1 5 6
+7
